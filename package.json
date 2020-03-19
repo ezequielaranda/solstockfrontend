@@ -1,0 +1,63 @@
+{
+  "name": "solstockfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.7.21",
+    "axios": "^0.19.1",
+    "axios-extensions": "^3.0.6",
+    "bootstrap-vue": "^2.3.0",
+    "core-js": "^2.6.11",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.2.13",
+    "jwt-decode": "^2.2.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^9.6.0",
+    "vue": "^2.6.11",
+    "vue-airbnb-style-datepicker": "^2.7.1",
+    "vue-date-pick": "^1.2.1",
+    "vue-router": "^3.1.5",
+    "vue-select": "^3.4.0",
+    "vue-session": "^1.0.0",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.12.1",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
